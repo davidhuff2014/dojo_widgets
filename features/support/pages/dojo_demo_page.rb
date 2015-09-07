@@ -1,7 +1,7 @@
 class DojoDemoPage
   include PageObject
 
-  page_url 'http://demo.dojotoolkit.org/demos/themePreviewer/demo.html'
+  page_url 'http://demos.dojotoolkit.org/demos/themePreviewer/demo.html'
 
   dojo_accordion(:the_accordion, id: 'leftAccordion')
 

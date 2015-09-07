@@ -3,7 +3,7 @@ Given(/^I am on the dojo demo page$/) do
 end
 
 When(/^I select the "([^"]*)" Accordion panel$/) do |label|
-  on(DojoDemoPage).the_accordion select_panel label
+  on(DojoDemoPage).the_accordion.select_panel label
 end
 
 Then(/^the Accordion panel for "([^"]*)" should be visible$/) do |label|
